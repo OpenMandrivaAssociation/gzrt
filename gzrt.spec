@@ -4,6 +4,7 @@ Version:	0.5
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Archiving/Compression
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	zlib-devel
 Source:		http://www.urbanophile.com/arenn/hacking/gzrt/gzrt-0.5.tar.gz
 URL:		http://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html
