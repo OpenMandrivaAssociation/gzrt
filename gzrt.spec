@@ -1,7 +1,7 @@
 Name:		gzrt
 Summary:	The gzip Recovery Toolkit
 Version:	0.5
-Release:	%mkrel 1
+Release:	%mkrel 3
 License:	GPLv2+
 Group:		Archiving/Compression
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
