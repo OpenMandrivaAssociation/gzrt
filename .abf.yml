@@ -1,2 +1,4 @@
+removed_sources:
+  gzrt-0.5.tar.gz: 99f1320dc795da666cd17d331c359e5c2433c129
 sources:
-  "gzrt-0.5.tar.gz": 99f1320dc795da666cd17d331c359e5c2433c129
+  gzrt-0.6.tar.gz: 6b0ce648fd973771b899fa866d23c81cdf9d036e

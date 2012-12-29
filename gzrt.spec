@@ -1,12 +1,12 @@
 Name:		gzrt
 Summary:	The gzip Recovery Toolkit
-Version:	0.5
-Release:	%mkrel 5
+Version:	0.6
+Release:	1
 License:	GPLv2+
 Group:		Archiving/Compression
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	zlib-devel
-Source:		http://www.urbanophile.com/arenn/hacking/gzrt/gzrt-0.5.tar.gz
+Source:		http://www.urbanophile.com/arenn/hacking/gzrt/%{name}-%{version}.tar.gz
 URL:		http://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html
 %description
 The gzip Recovery Toolkit attempts to automate the recovery of data
@@ -52,4 +52,5 @@ gzrecover.
 * Mon Sep 17 2007 Nicolas Vigier <nvigier@mandriva.com> 0.5-1mdv2008.0
 + Revision: 89180
 - Import gzrt
+
 
