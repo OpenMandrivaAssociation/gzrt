@@ -1,10 +1,11 @@
+%define debug_package %{nil}
+
 Name:		gzrt
 Summary:	The gzip Recovery Toolkit
 Version:	0.7
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Archiving/Compression
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	zlib-devel
 Source:		http://www.urbanophile.com/arenn/hacking/gzrt/%{name}-%{version}.tar.gz
 URL:		http://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html
