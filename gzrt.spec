@@ -1,6 +1,6 @@
 Name:		gzrt
 Summary:	The gzip Recovery Toolkit
-Version:	0.6
+Version:	0.7
 Release:	1
 License:	GPLv2+
 Group:		Archiving/Compression
@@ -52,5 +52,6 @@ gzrecover.
 * Mon Sep 17 2007 Nicolas Vigier <nvigier@mandriva.com> 0.5-1mdv2008.0
 + Revision: 89180
 - Import gzrt
+
 
 
