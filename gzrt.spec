@@ -2,8 +2,8 @@
 
 Name:		gzrt
 Summary:	The gzip Recovery Toolkit
-Version:	0.7
-Release:	2
+Version:	0.8
+Release:	1
 License:	GPLv2+
 Group:		Archiving/Compression
 BuildRequires:	zlib-devel
@@ -18,12 +18,12 @@ gzrecover.
 %setup -q
 
 %build
-%{__make}
+%make
 
 %install
 %{__mkdir_p} %{buildroot}%{_bindir} %{buildroot}%{_mandir}/man1
-%{__cp} -p gzrecover %{buildroot}%{_bindir}
-%{__cp} -p gzrecover.1 %{buildroot}%{_mandir}/man1
+cp -p gzrecover %{buildroot}%{_bindir}
+cp -p gzrecover.1 %{buildroot}%{_mandir}/man1
 
 %files
 %doc ChangeLog README
@@ -53,6 +53,7 @@ gzrecover.
 * Mon Sep 17 2007 Nicolas Vigier <nvigier@mandriva.com> 0.5-1mdv2008.0
 + Revision: 89180
 - Import gzrt
+
 
 
 
