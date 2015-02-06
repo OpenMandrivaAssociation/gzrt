@@ -3,7 +3,7 @@
 Name:		gzrt
 Summary:	The gzip Recovery Toolkit
 Version:	0.8
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Archiving/Compression
 BuildRequires:	zlib-devel
