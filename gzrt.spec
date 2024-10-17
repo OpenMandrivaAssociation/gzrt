@@ -8,7 +8,7 @@ License:	GPLv2+
 Group:		Archiving/Compression
 BuildRequires:	zlib-devel
 Source:		http://www.urbanophile.com/arenn/hacking/gzrt/%{name}-%{version}.tar.gz
-URL:		http://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html
+URL:		https://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html
 %description
 The gzip Recovery Toolkit attempts to automate the recovery of data
 from corrupted gzip files (including tarballs) through a program called
