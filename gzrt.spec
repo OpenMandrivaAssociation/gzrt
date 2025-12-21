@@ -6,6 +6,7 @@ Version:	0.8
 Release:	2
 License:	GPLv2+
 Group:		Archiving/Compression
+BuildRequires:	make
 BuildRequires:	zlib-devel
 Source:		http://www.urbanophile.com/arenn/hacking/gzrt/%{name}-%{version}.tar.gz
 URL:		https://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html
